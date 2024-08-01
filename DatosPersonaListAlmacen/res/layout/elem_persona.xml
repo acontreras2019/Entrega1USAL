@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <ImageView
+        android:id="@+id/foto_s"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/forma_hombre"/>
+
+    <TextView android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/foto_s"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"/>
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txtNombre"
+        android:layout_toRightOf="@id/foto_s"
+        >
+            <LinearLayout
+                android:id="@+id/ly2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="start"
+                >
+                    <TextView
+                        android:id="@+id/txtEdad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/segunda_linea"
+                        android:textSize="13dp"
+                        android:textColor="@android:color/darker_gray" />
+                    <TextView
+                        android:id="@+id/txtLicencia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/tercera_linea"
+                        android:textSize="13dp"
+                        android:textColor="@android:color/darker_gray" />
+                    <TextView
+                        android:id="@+id/txtFechaRegistro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/tercera_linea"
+                        android:textSize="13dp"
+                        android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ly3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/txtTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/segunda_linea"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/darker_gray" />
+                <TextView
+                    android:id="@+id/txtNivelIngles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/segunda_linea"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+

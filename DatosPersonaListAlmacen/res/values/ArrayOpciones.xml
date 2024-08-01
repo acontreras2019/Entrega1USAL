@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcionesJSON">
+        <item>prodiasv02.fis.usal.es/DAM/ServerJsonUTF8n.txt</item>
+        <item>prodiasv02.fis.usal.es/DAM/ServerJsonUTF8ns.txt</item>
+    </string-array>
+    <string-array name="opcionesXML">
+        <item>prodiasv02.fis.usal.es/DAM/ServerXMLs.xml</item>
+        <item>prodiasv02.fis.usal.es/DAM/ServerXML.xml</item>
+    </string-array>
+</resources>

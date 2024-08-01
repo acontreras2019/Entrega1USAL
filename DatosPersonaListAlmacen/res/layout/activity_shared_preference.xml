@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_shared_preference">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvShared" android:text="@string/shared_preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"/>
+
+     <TextView android:id="@+id/tvFormat"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/format"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:layout_below="@+id/tvShared"
+     android:layout_alignParentLeft="true"/>
+    <RadioGroup
+        android:id="@+id/rgFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFormat">
+        <RadioButton
+            android:id="@+id/rbtXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xml" />
+        <RadioButton
+            android:id="@+id/rbtJson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/json" />
+    </RadioGroup>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/lyFormat"
+    android:padding="5dp"
+    android:layout_below="@+id/rgFormat"
+    android:visibility="invisible">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/url"
+        android:id="@+id/tvUrl"
+        android:layout_alignParentLeft="true"/>
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+</LinearLayout>
+<TextView android:id="@+id/tvStorage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/storage_type"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_below="@+id/lyFormat"
+    android:layout_alignParentLeft="true"/>
+<RadioGroup
+    android:id="@+id/rgStorage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tvStorage">
+    <RadioButton
+        android:id="@+id/rbtBDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bdd_sqllite" />
+    <RadioButton
+        android:id="@+id/rbtContentP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_provider" />
+</RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/rgStorage"
+        android:gravity="center"
+        android:id="@+id/lyBotones">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/btnGuardar"
+            android:onClick="guardar"
+            android:layout_marginHorizontal="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salir"
+            android:id="@+id/btnCancelar"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="cancelar" />
+
+    </LinearLayout>
+<!--
+
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/editText02" android:layout_below="@+id/textView02" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Password:" android:id="@+id/textView03" android:layout_below="@+id/editText02"/>
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/editText03" android:layout_below="@+id/textView03" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Edad:" android:id="@+id/textView04" android:layout_below="@+id/editText03"/>
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/editText04" android:layout_below="@+id/textView04" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Grabar" android:id="@+id/button01" android:onClick="grabar" android:layout_below="@+id/editText04"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recuperar" android:id="@+id/button02" android:onClick="recuperar" android:layout_below="@+id/editText04" android:layout_centerHorizontal="true"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Borrar" android:id="@+id/button03" android:onClick="borrar" android:layout_below="@+id/editText04" android:layout_alignEnd="@+id/editText02"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+-->
+
+
+</RelativeLayout>
