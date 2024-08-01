@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ColorEtiqueta</string>
+    <string name="colorFondo">Color de Fondo</string>
+    <string name="colorMensaje">Color de Mensaje</string>
+    <string name="colorRojo">Rojo</string>
+    <string name="colorVerde">Verde</string>
+    <string name="colorAzul">Azul</string>
+    <string name="visible">Visible</string>
+    <string name="ejecutar">Ejecutar</string>
+    <string name="mensaje">Mensaje</string>
+</resources>

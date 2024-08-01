@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Additionsrechner 2024</string>
+    <string name="primer_sumando">" Erster Operand"</string>
+    <string name="segundo_sumando">" Zweiter Operand"</string>
+    <string name="sumar">" Hinzufügen"</string>
+    <string name="resultado">" Ergebnis"</string>
+</resources>

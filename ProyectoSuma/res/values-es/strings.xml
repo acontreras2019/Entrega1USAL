@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Calculadora de sumas 2024"</string>
+    <string name="primer_sumando">Primer Sumando</string>
+    <string name="segundo_sumando">Segundo Sumando</string>
+    <string name="sumar">Sumar</string>
+    <string name="resultado">Resultado</string>
+</resources>

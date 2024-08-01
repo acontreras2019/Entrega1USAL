@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Suma 2024</string>
+    <string name="primer_sumando">Primer Sumando</string>
+    <string name="segundo_sumando">Segundo Sumando</string>
+    <string name="sumar">Sumar</string>
+    <string name="resultado">Resultado</string>
+</resources>
