@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista Datos de Personas</string>
+    <string name="lista">Lista\t</string>
+    <string name="alta_nueva_persona">Alta Nueva Persona</string>
+    <string name="salir">Salir</string>
+    <string name="persona">Persona</string>
+    <string name="nombres">Nombres:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="apellidosContacto">Apellidos del Contacto</string>
+    <string name="edad">Edad:</string>
+    <string name="edadContacto">Edad del Contacto</string>
+    <string name="telefono">Teléfono</string>
+    <string name="telefonoContacto">Telefono del Contacto</string>
+    <string name="permisoConducir">Permiso de Conducir:</string>
+    <string name="si">Si</string>
+    <string name="nivelIngles">Nivel de Inglés:</string>
+    <string name="bajo">Bajo</string>
+    <string name="medio">Medio</string>
+    <string name="alto">Alto</string>
+    <string name="fechaAlta">Fecha de Alta</string>
+    <string name="reset">Reiniciar</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nombreContacto">Nombre del Contacto</string>
+    <string name="CambiarFecha">Cambiar Fecha</string>
+    <string name="alumno">Alumno</string>
+    <string name="elementos_en_lista">Elementos en lista:</string>
+    <string name="adicionar_persona">Añadir persona</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="lista_de_personas">Lista Datos de Personas</string>
+    <string name="segunda_linea">Segunda línea</string>
+    <string name="tercera_linea">Tercera línea</string>
+    <string name="preg_borrar_registro">¿Deseas borrar este registro?</string>
+    <string name="borrar">Borrar</string>
+    <string name="total_personas">Total Personas</string>
+    <string name="eliminado">Eliminado</string>
+    <string name="accion_cancelada">" Accion cancelada "</string>
+</resources>
