@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PerroGatoLeon</string>
+    <string name="lbl_perro">Perro</string>
+    <string name="lbl_gato">Gato</string>
+    <string name="lbl_leon">Leon</string>
+</resources>

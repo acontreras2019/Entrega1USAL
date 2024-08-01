@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PerroGatoLeon</string>
+    <string name="lbl_perro">Perro</string>
+    <string name="lbl_gato">Gato\t\t</string>
+    <string name="lbl_leon">Leon</string>
+    <string name="perrogatoleon">PerroGatoLeon</string>
+    <string name="inicio">Inicio</string>
+    <string name="fin">Fin</string>
+</resources>
