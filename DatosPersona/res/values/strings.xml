@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DatosPersonas</string>
+    <string name="lista">Lista\t</string>
+    <string name="alta_nueva_persona">Alta Nueva Persona</string>
+    <string name="salir">Salir</string>
+    <string name="persona">Persona</string>
+    <string name="nombres">Nombres:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="apellidosContacto">Apellidos del Contacto</string>
+    <string name="edad">Edad:</string>
+    <string name="edadContacto">Edad del Contacto</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="telefonoContacto">Telefono del Contacto</string>
+    <string name="permisoConducir">Permiso de Conducir:</string>
+    <string name="si">Si</string>
+    <string name="nivelIngles">Nivel de Inglés:</string>
+    <string name="bajo">Bajo</string>
+    <string name="medio">Medio</string>
+    <string name="alto">Alto</string>
+    <string name="fechaAlta">Fecha de Alta</string>
+    <string name="reset">Reset</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nombreContacto">Nombre del Contacto</string>
+    <string name="CambiarFecha">Cambiar Fecha</string>
+</resources>

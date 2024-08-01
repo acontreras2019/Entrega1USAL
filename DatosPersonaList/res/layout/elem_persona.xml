@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <ImageView
+        android:id="@+id/foto_s"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/forma_hombre"/>
+    <TextView android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/foto_s"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/infoPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombre"
+        android:layout_toRightOf="@id/foto_s"
+        android:gravity="left"
+        android:text="Segunda línea"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/infoExtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoPrincipal"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/foto_s"
+        android:gravity="left"
+        android:text="Tercera línea"
+        android:textColor="@android:color/darker_gray" />
+</RelativeLayout>
