@@ -53,9 +53,7 @@ public class PersonaListAdapter extends BaseAdapter  {
             case 4:
                 imageView.setImageResource(R.drawable.silueta_femenina_pelo_largo);
                 break;
-            case 5:
-                imageView.setImageResource(R.drawable.silueta_masculina_lateral);
-                break;
+
             default:
                 imageView.setImageResource(R.drawable.forma_hombre);
                 break;

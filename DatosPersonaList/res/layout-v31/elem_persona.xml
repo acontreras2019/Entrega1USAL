@@ -9,7 +9,7 @@
         android:layout_height="?android:attr/listPreferredItemHeight"
         android:layout_alignParentLeft="true"
         android:src="@drawable/forma_hombre"/>
-    <TextView android:id="@+id/apellidos"
+    <TextView android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/foto_s"
@@ -18,23 +18,23 @@
         android:singleLine="true"/>
 
     <TextView
-        android:id="@+id/nombre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/apellidos"
-        android:layout_toRightOf="@id/foto_s"
-        android:gravity="left"
-        android:text="Segunda línea"
-        android:textColor="@color/material_dynamic_neutral10" />
-
-    <TextView
-        android:id="@+id/informacion"
+        android:id="@+id/infoPrincipal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/nombre"
+        android:layout_toRightOf="@id/foto_s"
+        android:gravity="left"
+        android:text="Segunda línea"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/infoExtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoPrincipal"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@id/foto_s"
         android:gravity="left"
         android:text="Tercera línea"
-        android:textColor="@android:color/system_neutral2_700" />
+        android:textColor="@android:color/darker_gray" />
 </RelativeLayout>

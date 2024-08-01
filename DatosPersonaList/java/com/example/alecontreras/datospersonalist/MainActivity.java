@@ -52,19 +52,7 @@ public class MainActivity extends AppCompatActivity {
                sendInfoToEdit(position);
             }
         });
-        // Listener para cuando se hace un click prolongado sobre un item de la ListView
-        lv1.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Toast toast = Toast.makeText(MainActivity.this,
-                        misPersonas.get(position).toXMLformat() + "\n borrar?",
-                        Toast.LENGTH_SHORT);
-                toast.setGravity(Gravity.CENTER, 0, 0);
-                toast.show();
-                return true;
-            }
-        });
 
 
         if (nElementos == -1)

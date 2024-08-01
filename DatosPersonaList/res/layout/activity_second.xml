@@ -57,7 +57,7 @@
                 android:layout_below="@+id/etNombre"
                 android:text="@string/apellidos"
                 android:textAlignment="textStart"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="5dp"/>
 
             <EditText
                 android:id="@+id/etApellido"
@@ -72,7 +72,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="30dp"
                 android:textSize="20sp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="5dp"
                 android:layout_below="@+id/etApellido"
                 android:text="@string/edad"
                 android:textAlignment="textStart" />
@@ -89,7 +89,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="30dp"
                 android:textSize="20sp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="5dp"
                 android:layout_below="@+id/etEdad"
                 android:text="@string/telefono"
                 android:textAlignment="textStart" />
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="5dp">
                 <TextView
                     android:id="@+id/tvPermisoConducir"
                     android:layout_width="wrap_content"
@@ -131,7 +131,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="30dp"
                 android:textSize="20sp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_below="@+id/lyPermisoConducir"
                 android:text="@string/nivelIngles"
                 android:textAlignment="textStart" />
@@ -170,7 +170,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="5dp">
                 <TextView
                     android:id="@+id/tvFecha"
                     android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
                     android:layout_height="wrap_content"
                     android:onClick="openDialogDatePicker"
                     android:text="@string/CambiarFecha"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -210,7 +210,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_horizontal"
-                android:layout_marginTop="15dp">
+                android:layout_marginTop="5dp">
 
                 <Button
                     android:id="@+id/btnReset"
@@ -219,7 +219,7 @@
                     android:layout_marginHorizontal="5dp"
                     android:onClick="reset"
                     android:text="@string/reset"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/btnEnviar"
@@ -228,7 +228,7 @@
                     android:layout_marginHorizontal="5dp"
                     android:onClick="enviar"
                     android:text="@string/enviar"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/btnCancelar"
@@ -237,7 +237,7 @@
                     android:layout_marginHorizontal="5dp"
                     android:onClick="cancelar"
                     android:text="@string/cancelar"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
